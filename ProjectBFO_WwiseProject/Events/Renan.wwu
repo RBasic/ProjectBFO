@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{745C6C72-E0D4-414D-9A4B-D9ABB93C6C8D}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Renan" ID="{745C6C72-E0D4-414D-9A4B-D9ABB93C6C8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Amb_Garage" ID="{F528F554-A4BF-48BD-9E9E-677D141FDE27}">
+					<ChildrenList>
+						<Action Name="" ID="{D148F7CA-B1A2-4010-849D-5D13052869F8}" ShortID="360288088">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Garage" ID="{448A3F48-7841-4D9F-9377-5965387E0294}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
