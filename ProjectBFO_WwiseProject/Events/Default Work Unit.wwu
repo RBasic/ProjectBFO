@@ -4,6 +4,17 @@
 		<WorkUnit Name="Default Work Unit" ID="{A84739F7-7F44-44D0-BD22-ED79E88BF30D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="New_Event" ID="{29CFF410-F8A3-4D6D-922F-EEA710667B43}"/>
+				<Event Name="Play_SC_Footstep" ID="{F3810B6F-A665-4528-AF0D-2D657727222A}">
+					<ChildrenList>
+						<Action Name="" ID="{A583AC6F-7BD0-46AE-81C0-98547E2AD476}" ShortID="623345647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Footstep" ID="{B601A683-7425-43D9-9DE2-4F5120C2FBB1}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

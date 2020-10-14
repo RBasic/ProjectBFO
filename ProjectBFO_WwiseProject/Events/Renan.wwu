@@ -8,7 +8,7 @@
 						<Action Name="" ID="{D148F7CA-B1A2-4010-849D-5D13052869F8}" ShortID="360288088">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Amb_Garage" ID="{448A3F48-7841-4D9F-9377-5965387E0294}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+									<ObjectRef Name="Sfx_amb" ID="{0D34ED09-FCB5-4DDA-A73D-ECE6CED18DBD}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
