@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0FA1C4C5-F11A-4369-A4FE-E634F0C285AE}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{0FA1C4C5-F11A-4369-A4FE-E634F0C285AE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0FA1C4C5-F11A-4369-A4FE-E634F0C285AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="SC_Footstep" ID="{B601A683-7425-43D9-9DE2-4F5120C2FBB1}" ShortID="317146101">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Concrete" ID="{62C2CDB6-1BE8-4196-93E3-72FC8DB6CFDC}" WorkUnitID="{E44314D2-DA2E-4F07-81E5-0EF28991419C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Footstep" ID="{60901D94-4660-4FF9-824C-207DB95BEE24}" WorkUnitID="{E44314D2-DA2E-4F07-81E5-0EF28991419C}"/>
+						</Reference>
+					</ReferenceList>
+					<GroupingInfo/>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

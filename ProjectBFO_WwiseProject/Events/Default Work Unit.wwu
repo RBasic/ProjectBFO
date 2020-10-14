@@ -9,7 +9,7 @@
 						<Action Name="" ID="{A583AC6F-7BD0-46AE-81C0-98547E2AD476}" ShortID="623345647">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SC_Footstep" ID="{B601A683-7425-43D9-9DE2-4F5120C2FBB1}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+									<ObjectRef Name="SC_Footstep" ID="{B601A683-7425-43D9-9DE2-4F5120C2FBB1}" WorkUnitID="{0FA1C4C5-F11A-4369-A4FE-E634F0C285AE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
