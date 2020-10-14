@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18585342-17BC-4F2F-958B-4772158CFBDB}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Thibault" ID="{18585342-17BC-4F2F-958B-4772158CFBDB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Amb_Cuisine" ID="{53B6B2F2-C4FB-4921-8AC1-13F53C425A97}">
+					<ChildrenList>
+						<Action Name="" ID="{94F5E9BD-8D27-4FF0-87E8-FCB3E307B6F3}" ShortID="542396591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sfx_RoomTone_amb" ID="{2B8057D9-4C18-4314-91A1-2AA471334C94}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
