@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51BC9ACB-033A-4D62-8DD6-DFC63DE9C060}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Hassan" ID="{51BC9ACB-033A-4D62-8DD6-DFC63DE9C060}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SC_Drawner" ID="{02BBC856-08AA-4BBC-ADB3-97B9F7104137}">
+					<ChildrenList>
+						<Action Name="" ID="{9B19D7ED-6129-4357-8DD1-123FCA3843E3}" ShortID="69683472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Drawner" ID="{F2FC3243-2E90-4AC5-89E0-7F700FC358B3}" WorkUnitID="{017EF356-F57C-4000-8ED3-5B2783A938FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SC_Footstep" ID="{F6B5010D-21CB-49F7-9228-5D6D8ED3EEFD}">
+					<ChildrenList>
+						<Action Name="" ID="{8DDF3CDC-DEEC-4A5C-B170-48AB8A8C7CBC}" ShortID="152101496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Footstep" ID="{B601A683-7425-43D9-9DE2-4F5120C2FBB1}" WorkUnitID="{017EF356-F57C-4000-8ED3-5B2783A938FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SC_Door_Open_Close" ID="{93A7F82F-8C2F-402E-A492-5FC229C4E44E}">
+					<ChildrenList>
+						<Action Name="" ID="{1159AB27-5A1C-4884-94D1-419E16C12FB4}" ShortID="349422969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Door_Open_Close" ID="{B6B36D65-B175-4B01-B85D-530C13A9021B}" WorkUnitID="{017EF356-F57C-4000-8ED3-5B2783A938FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

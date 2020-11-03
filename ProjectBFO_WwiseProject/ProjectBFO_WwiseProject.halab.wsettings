@@ -4,6 +4,10 @@
 		<UserProjectSettings Name="" ID="{60570F75-25BB-44AC-BE3A-9631FB8D0D5A}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\halab\OneDrive\Escritorio\"/>
+				<Property Name="Event Action List\{02BBC856-08AA-4BBC-ADB3-97B9F7104137}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2C7D091B-9185-4805-9394-29CFD92A17A4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{93A7F82F-8C2F-402E-A492-5FC229C4E44E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F6B5010D-21CB-49F7-9228-5D6D8ED3EEFD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
