@@ -29,14 +29,14 @@
 	<ValidationCacheItem File="D:\Cime ART\GitHub\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1602056203" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1602663070" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\States\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Queries\Factory Queries.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\ProjectBFO_WwiseProject.wproj" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\ProjectBFO_WwiseProject.renan.wsettings" DateLow="1602504213" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\ProjectBFO_WwiseProject.renan.wsettings" DateLow="1604391433" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
@@ -44,8 +44,9 @@
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Events\Renan.wwu" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Events\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Events\Thibault.wwu" DateLow="1604391436" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Events\Renan.wwu" DateLow="1602660922" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Events\Default Work Unit.wwu" DateLow="1602666552" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Effects\Factory Effects.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
@@ -53,7 +54,8 @@
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Renan.wwu" DateLow="1602504213" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1602504213" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1602660793" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Thibault.wwu" DateLow="1604391436" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Renan.wwu" DateLow="1602666552" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\renan\Documents\Unreal Projects\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1602666552" DateHigh="0"/>
 </ValidationCache>
