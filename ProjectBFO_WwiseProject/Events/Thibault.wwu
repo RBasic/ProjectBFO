@@ -3,17 +3,144 @@
 	<Events>
 		<WorkUnit Name="Thibault" ID="{18585342-17BC-4F2F-958B-4772158CFBDB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Amb_Cuisine" ID="{53B6B2F2-C4FB-4921-8AC1-13F53C425A97}">
+				<Folder Name="Kitchens" ID="{58AB452A-3816-402E-86AC-7A596E29207E}" ShortID="151461546">
 					<ChildrenList>
-						<Action Name="" ID="{94F5E9BD-8D27-4FF0-87E8-FCB3E307B6F3}" ShortID="542396591">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sfx_RoomTone_amb" ID="{2B8057D9-4C18-4314-91A1-2AA471334C94}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Amb_Cuisine" ID="{53B6B2F2-C4FB-4921-8AC1-13F53C425A97}">
+							<ChildrenList>
+								<Action Name="" ID="{94F5E9BD-8D27-4FF0-87E8-FCB3E307B6F3}" ShortID="542396591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_RoomTone_Kitchens" ID="{2B8057D9-4C18-4314-91A1-2AA471334C94}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_dishwasher" ID="{B198C0EE-762E-42A6-93AB-BB2C69E070E5}">
+							<ChildrenList>
+								<Action Name="" ID="{9266464A-9945-4C7C-A5F7-EF8F6F73B6C4}" ShortID="1061698127">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dishwasher" ID="{4E8F261B-12CE-47D2-8F99-1FACCAAC487D}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Fridge" ID="{9CC4E6F2-7AD6-4B0B-B837-06E1B51B9B33}">
+							<ChildrenList>
+								<Action Name="" ID="{18AABA3A-278F-4F41-BE5E-9D7AFF0FBFB3}" ShortID="924591553">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Fridge" ID="{A6BA0453-135F-4FB9-A66A-865653FC7E57}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Bathroom" ID="{690B0045-1D35-4E57-AB41-1622295CA0D6}" ShortID="326704380">
+					<ChildrenList>
+						<Event Name="Play_Amb_Bathroom" ID="{53341D0D-0651-44CD-AE93-F0272E603FAC}">
+							<ChildrenList>
+								<Action Name="" ID="{F921EFB6-CBAD-468D-A357-7CAA38EBC822}" ShortID="931913085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_RoomTone_Bathroom" ID="{B4F8EB96-0254-4FF0-BA4A-4CEF9A25B06E}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BedRoom" ID="{87266EA8-00CB-49FE-8C02-4C1F9DAE929B}" ShortID="702464414">
+					<ChildrenList>
+						<Event Name="Play_Amb_BedRoom" ID="{B9BDDBE9-4690-42C8-914E-D989CDA2CF1C}">
+							<ChildrenList>
+								<Action Name="" ID="{1C51AB9B-2E5F-413A-A141-C98B4631E547}" ShortID="535462665">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_RoomTone_BedRoom" ID="{6BA78E3C-2EC0-4D36-9B57-53B83ACC01AB}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Office" ID="{8E9874E3-69B5-4230-BA94-04EA37333847}" ShortID="1046026430">
+					<ChildrenList>
+						<Event Name="Play_Amb_Office" ID="{18D5FA94-005C-4F50-B75E-B57519E00ECE}">
+							<ChildrenList>
+								<Action Name="" ID="{93A4B2B8-5045-42CE-B6E5-F422BD324B5F}" ShortID="186711668">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_RoomTone_Office" ID="{8569CA62-CF06-4E85-8A68-E3F5C411BE23}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LaundryRoom" ID="{87949139-7E45-420D-A251-8F1D661967A3}" ShortID="215303593">
+					<ChildrenList>
+						<Event Name="Play_SFX_WashingMachine" ID="{B488E789-574E-48C2-AFB9-738ADFEAD9BA}">
+							<ChildrenList>
+								<Action Name="" ID="{3B0DB85B-FD4A-4F21-A5B7-565515DC2088}" ShortID="120744774">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_WashingMachine" ID="{049B98CB-B55B-4A4D-A79F-C1C5922A6333}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Sfx_RoomTone_LaundryRoom" ID="{04594C62-FF0C-4722-A380-C5E9C0B7E046}">
+							<ChildrenList>
+								<Action Name="" ID="{6D78C1B8-7CB6-48DB-84CC-7282EBD52399}" ShortID="355576116">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_RoomTone_LaundryRoom" ID="{4D861F95-13A6-4C4A-9D86-8C56DA007570}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LivingRoom" ID="{329EC40A-FF35-4FEA-A7CB-EB60A1ABADE2}" ShortID="957112100">
+					<ChildrenList>
+						<Event Name="Play_Sfx_RoomTone_LivingRoom" ID="{D8636A5D-6CD1-4CC7-BCA9-F405251E86D6}">
+							<ChildrenList>
+								<Action Name="" ID="{7B73D3EA-8A23-4930-AEC6-1734245F3416}" ShortID="811597796">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_RoomTone_LivingRoom" ID="{7CCCD25B-BCC2-46D7-874A-7029102A0E7F}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Objet" ID="{0A8BDE0B-7B89-466B-B648-4D47CE811A80}" ShortID="887115860">
+					<ChildrenList>
+						<Event Name="Play_RND_CoverCharge" ID="{99125F3E-53F3-4EBD-9B6F-7B78467294E0}">
+							<ChildrenList>
+								<Action Name="" ID="{65A409FD-FA36-4B6B-97AC-D415429EF689}" ShortID="818165680">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RND_CoverCharge" ID="{1AB176AE-59A7-4D08-BC4C-06F3C4E657D3}" WorkUnitID="{AA85FF03-75FB-404B-9ACE-D46F8D08442D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
