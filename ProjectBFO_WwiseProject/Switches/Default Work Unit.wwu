@@ -13,8 +13,14 @@
 				</SwitchGroup>
 				<SwitchGroup Name="Open_Close_Door" ID="{C780C095-248F-4B7C-B11A-3FDDD3A72C9C}">
 					<ChildrenList>
-						<Switch Name="Open" ID="{D9296FFC-FC36-47F1-ADED-C1F35AF30804}"/>
-						<Switch Name="Close" ID="{9545E93F-30B9-4589-B0E5-E90849B156AD}"/>
+						<Switch Name="OpenDoor" ID="{D9296FFC-FC36-47F1-ADED-C1F35AF30804}"/>
+						<Switch Name="CloseDoor" ID="{9545E93F-30B9-4589-B0E5-E90849B156AD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Open_Close_Drawer" ID="{DB6EB2E3-3AB7-4506-AE91-4B4F04EDB8F1}">
+					<ChildrenList>
+						<Switch Name="OpenDrawer" ID="{BB125639-0893-49FD-8593-CDAC541B6488}"/>
+						<Switch Name="CloseDrawer" ID="{EBEABA56-4EC0-4873-8E32-A35F3589A468}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
