@@ -226,6 +226,9 @@
 										<Reference Name="Attenuation">
 											<Custom CreatedFrom="{93D9AD38-5A82-4586-99A2-3EC2E17C26B9}">
 												<Attenuation Name="Amb_Roomtone_LivingRoom (Custom)" ID="{B325F4C8-C562-4538-B52C-3939DB3F9EEB}" ShortID="910278280">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="400"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -240,7 +243,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>400</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -309,6 +312,9 @@
 										<Reference Name="Attenuation">
 											<Custom CreatedFrom="{6ACC8E49-7D1D-452A-9B76-615D5C67940F}">
 												<Attenuation Name="Amb_Roomtone_LaundryRoom (Custom)" ID="{B025F48D-297D-487B-AC3C-F3934B302862}" ShortID="273308051">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="300"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -323,7 +329,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>300</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -431,6 +437,9 @@
 										<Reference Name="Attenuation">
 											<Custom CreatedFrom="{6678DA3F-C3A9-4F94-BAC0-3EBCD17C63BB}">
 												<Attenuation Name="Amb_Roomtone_Bathroom (Custom)" ID="{FFCDAA6E-6D87-48CE-940E-7A86D95FA94A}" ShortID="932193154">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -445,7 +454,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>1000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -553,6 +562,9 @@
 										<Reference Name="Attenuation">
 											<Custom CreatedFrom="{3A3F42F9-91A0-42BC-914A-736612AA1E1C}">
 												<Attenuation Name="Amb_Roomtone_Office (Custom)" ID="{C6CDC9FF-A41A-45BA-BDBD-C9B2249A85FF}" ShortID="81084478">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -567,7 +579,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>1000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>

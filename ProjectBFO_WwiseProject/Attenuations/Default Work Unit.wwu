@@ -90,6 +90,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Amb_Roomtone_BedRoom" ID="{FA96F8C0-EFE1-4F59-90D6-BF69AC658211}" ShortID="573865561">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -104,7 +107,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>1000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -133,6 +136,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Amb_Roomtone_Kitchens" ID="{F275AE89-938F-4CA4-88DE-79DCEA34F3FE}" ShortID="210204980">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="400"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -147,7 +153,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>400</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
