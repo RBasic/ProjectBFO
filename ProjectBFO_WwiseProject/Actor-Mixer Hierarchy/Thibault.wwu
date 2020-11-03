@@ -13,110 +13,438 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="SFX_Fridge" ID="{A6BA0453-135F-4FB9-A66A-865653FC7E57}" ShortID="936332081">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom CreatedFrom="{13AF01F3-7154-4A8A-9033-9AC661B7E454}">
-										<Attenuation Name="ObjectAttenuation (Custom)" ID="{F8B9652A-5219-4526-8814-1D810D777AD9}" ShortID="399035891">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{013B60BD-4762-46F7-840D-A987A01A1831}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Kitchens" ID="{E3F47E5F-C576-432E-A683-44667C6DC520}" ShortID="826053030">
 							<ChildrenList>
-								<AudioFileSource Name="SFX_Fridge" ID="{41E8727F-631F-44DD-AE66-0C263731E44E}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_Fridge.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="580625567"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Sfx_RoomTone_Kitchens" ID="{2B8057D9-4C18-4314-91A1-2AA471334C94}" ShortID="214118499">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kitchen-room-tone" ID="{E7DB3CC7-BEA9-4CCE-902F-DDC8E592D632}">
+											<Language>SFX</Language>
+											<AudioFile>kitchen-room-tone.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="992889246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kitchen-room-tone" ID="{E7DB3CC7-BEA9-4CCE-902F-DDC8E592D632}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Fridge" ID="{A6BA0453-135F-4FB9-A66A-865653FC7E57}" ShortID="936332081">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{13AF01F3-7154-4A8A-9033-9AC661B7E454}">
+												<Attenuation Name="ObjectAttenuation (Custom)" ID="{F8B9652A-5219-4526-8814-1D810D777AD9}" ShortID="399035891">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{013B60BD-4762-46F7-840D-A987A01A1831}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Fridge" ID="{41E8727F-631F-44DD-AE66-0C263731E44E}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Fridge.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="580625567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Fridge" ID="{41E8727F-631F-44DD-AE66-0C263731E44E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_dishwasher" ID="{4E8F261B-12CE-47D2-8F99-1FACCAAC487D}" ShortID="258060435">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_dishwasher" ID="{B7B78495-540A-4745-AE21-DF32972CC4FF}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_dishwasher.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396174789"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_dishwasher" ID="{B7B78495-540A-4745-AE21-DF32972CC4FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Fridge" ID="{41E8727F-631F-44DD-AE66-0C263731E44E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Sfx_RoomTone_amb" ID="{2B8057D9-4C18-4314-91A1-2AA471334C94}" ShortID="214118499">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
-								</Reference>
-							</ReferenceList>
+						</Folder>
+						<Folder Name="LivingRoom" ID="{93E7B036-C98A-453A-9815-FE1C86544DD7}" ShortID="1058901038">
 							<ChildrenList>
-								<AudioFileSource Name="kitchen-room-tone" ID="{E7DB3CC7-BEA9-4CCE-902F-DDC8E592D632}">
-									<Language>SFX</Language>
-									<AudioFile>kitchen-room-tone.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="992889246"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Sfx_RoomTone_LivingRoom" ID="{7CCCD25B-BCC2-46D7-874A-7029102A0E7F}" ShortID="717700765">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RoomToneLivingRoom" ID="{EAE56941-5A6B-4C6C-917E-671B54A85CD4}">
+											<Language>SFX</Language>
+											<AudioFile>RoomToneLivingRoom.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476996168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RoomToneLivingRoom" ID="{EAE56941-5A6B-4C6C-917E-671B54A85CD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="kitchen-room-tone" ID="{E7DB3CC7-BEA9-4CCE-902F-DDC8E592D632}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</Folder>
+						<Folder Name="LaundryRoom" ID="{281993A0-1745-4F7A-83F7-E2F045C437DB}" ShortID="1030200065">
+							<ChildrenList>
+								<Sound Name="Sfx_RoomTone_LaundryRoom" ID="{4D861F95-13A6-4C4A-9D86-8C56DA007570}" ShortID="81886010">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RoomToneLaundry" ID="{F89B373F-572B-4D44-A2B1-CC06F9E4C45F}">
+											<Language>SFX</Language>
+											<AudioFile>RoomToneLaundry.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="551302914"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RoomToneLaundry" ID="{F89B373F-572B-4D44-A2B1-CC06F9E4C45F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_WashingMachine" ID="{049B98CB-B55B-4A4D-A79F-C1C5922A6333}" ShortID="875046040">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine" ID="{5B9A4226-F40B-48D1-BA68-828796213782}">
+											<Language>SFX</Language>
+											<AudioFile>WashingMachine.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="320466993"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine" ID="{5B9A4226-F40B-48D1-BA68-828796213782}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BathRoom" ID="{7E4157CE-1819-4220-AFA3-C28C397F9600}" ShortID="1052945598">
+							<ChildrenList>
+								<Sound Name="Sfx_RoomTone_Bathroom" ID="{B4F8EB96-0254-4FF0-BA4A-4CEF9A25B06E}" ShortID="452844048">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RoomToneBathroom" ID="{A2E07CAF-E897-46FF-B7DB-94FC8857930F}">
+											<Language>SFX</Language>
+											<AudioFile>RoomToneBathroom.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="751890324"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RoomToneBathroom" ID="{A2E07CAF-E897-46FF-B7DB-94FC8857930F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BedRoom" ID="{B4232990-1943-457C-ADA0-A89F9E42454D}" ShortID="609326347">
+							<ChildrenList>
+								<Sound Name="Sfx_RoomTone_BedRoom" ID="{6BA78E3C-2EC0-4D36-9B57-53B83ACC01AB}" ShortID="478325889">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RoomToneBedroom" ID="{A5A5DD2B-97C1-4DDD-8C3A-4A5C2B4F3BB5}">
+											<Language>SFX</Language>
+											<AudioFile>RoomToneBedroom.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="96004711"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RoomToneBedroom" ID="{A5A5DD2B-97C1-4DDD-8C3A-4A5C2B4F3BB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Office" ID="{DDB32F42-6E3F-433D-A3D8-6AB54BF0A5C0}" ShortID="720564138">
+							<ChildrenList>
+								<Sound Name="Sfx_RoomTone_Office" ID="{8569CA62-CF06-4E85-8A68-E3F5C411BE23}" ShortID="504267816">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RoomToneOffice" ID="{8185FD5A-C559-4A6C-B83E-1A0D1D2AD894}">
+											<Language>SFX</Language>
+											<AudioFile>RoomToneOffice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="996962770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RoomToneOffice" ID="{8185FD5A-C559-4A6C-B83E-1A0D1D2AD894}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Object" ID="{7057CDDD-397E-468E-A85C-01F58DE9650C}" ShortID="713762156">
+							<ChildrenList>
+								<Folder Name="HomeAppliance" ID="{66DBF7D6-6802-4F46-B2BB-D179D6CFF7F2}" ShortID="867395274">
+									<ChildrenList>
+										<RandomSequenceContainer Name="RND_CoverCharge" ID="{1AB176AE-59A7-4D08-BC4C-06F3C4E657D3}" ShortID="316867012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_CoverChange1" ID="{2523AC22-1AD3-4D22-A90B-61F21F323189}" ShortID="196143251">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_CoverChange1" ID="{A0FE7AD7-D6EE-49BA-99B9-5724D5ECB2D6}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_CoverChange1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="333273550"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_CoverChange1" ID="{A0FE7AD7-D6EE-49BA-99B9-5724D5ECB2D6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_CoverChange2" ID="{489CECE0-0D45-4184-AC69-FB6D3D036882}" ShortID="783065300">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_CoverChange2" ID="{ACE5F798-BDAA-4BCD-8A9C-F447504DDEF2}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_CoverChange2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675976076"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_CoverChange2" ID="{ACE5F798-BDAA-4BCD-8A9C-F447504DDEF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_CoverChange3" ID="{E424F2B5-21F6-4BF3-BCA8-9DA726B56319}" ShortID="33837724">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F987A8D-6FDA-4CE7-926E-473D35996C2F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_CoverChange3" ID="{1370D930-B647-4D70-81A0-B9CB7B8AC824}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_CoverChange3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="179071588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_CoverChange3" ID="{1370D930-B647-4D70-81A0-B9CB7B8AC824}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
