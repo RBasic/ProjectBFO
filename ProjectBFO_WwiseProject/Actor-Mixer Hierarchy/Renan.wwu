@@ -489,25 +489,25 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>30.1473450589005</RightEdgePos>
+												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="SFX_CloseKey_01" ID="{FCD1F1AC-81EC-4EEF-8E3C-200E94223EAC}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>29.869109947644</LeftEdgePos>
+												<LeftEdgePos>100</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>71.4033895615183</RightEdgePos>
+												<RightEdgePos>160</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="SFX_CloseKey" ID="{4043C58D-F360-4C4A-B921-6431346D6B29}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>71.1615554646597</LeftEdgePos>
+												<LeftEdgePos>160</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>239</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>

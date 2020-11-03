@@ -26,6 +26,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PickUpItem" ID="{C096C2EE-8E50-475B-8CD5-9E6E92233185}">
+					<Comment>Created in Unreal Engine 4 via WAAPI</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{94109F7B-12E4-4417-86C4-B98794366490}" ShortID="252023226">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_PickUpItem" ID="{CF9D69F3-1CFC-444D-9772-D42D76B36196}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DistKey" ID="{5E72FA94-66CB-41DC-B7D6-5B6A982EDFC5}">
+					<ChildrenList>
+						<Action Name="" ID="{E7D82A71-C082-4D62-88F0-7172BB40CAC2}" ShortID="130890629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BC_CloseKey" ID="{A4F69D8B-3B5E-4876-BFA9-CBEA3F076DB5}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OpenWindow" ID="{E18E320D-E5C2-46B8-B7DA-778F8281D70E}">
+					<ChildrenList>
+						<Action Name="" ID="{5C31B706-E4D5-4893-B892-8D8903F75E40}" ShortID="235037222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_OpenWindow" ID="{35CEC43E-4CD2-4680-AA87-883D674D07BB}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RC_PencilDraw" ID="{D9C93B30-31C1-4A5D-8DE9-5E0CECAEA790}">
+					<ChildrenList>
+						<Action Name="" ID="{8F9D7654-2413-4367-9ACE-FA2F1094DAE2}" ShortID="627313513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_PencilDraw" ID="{2E56D155-4A35-4551-909B-F714A91DD0AB}" WorkUnitID="{EB0E7D49-9D7E-4511-A604-610E2296FAB1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
