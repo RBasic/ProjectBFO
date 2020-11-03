@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0C9FF07E-F296-40A3-B3BC-E71C561A5707}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Alexis" ID="{0C9FF07E-F296-40A3-B3BC-E71C561A5707}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_metal" ID="{609285C7-175F-4669-92E0-EBB8298F9579}">
+					<ChildrenList>
+						<Action Name="" ID="{88D91752-072A-4E24-A32E-58080866EE93}" ShortID="138223848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Metal" ID="{9AC95F6E-42BB-45AD-BA8D-641F890FD107}" WorkUnitID="{6CA8C70D-BEAD-45B7-AA89-2677FC43B4C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Plastic" ID="{71087F51-C5E9-4275-8064-EB037BD1841E}">
+					<ChildrenList>
+						<Action Name="" ID="{AC84ADA3-A550-42A1-9E82-10A88A97ED02}" ShortID="372215889">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Plastic" ID="{51A420B4-285B-4EEA-BB47-CAC08FB91062}" WorkUnitID="{6CA8C70D-BEAD-45B7-AA89-2677FC43B4C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Book" ID="{C1E2EE6A-FF6A-4162-9F90-E2EDE70E19BA}">
+					<ChildrenList>
+						<Action Name="" ID="{5BC5D52A-1AEC-469D-91D4-FE4FFEEB98B0}" ShortID="77188431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Book" ID="{F70D2E7E-2988-46E4-971D-18339F0E30C3}" WorkUnitID="{6CA8C70D-BEAD-45B7-AA89-2677FC43B4C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Glass" ID="{D2A9184C-E0B6-47AD-A277-FFEDDE9B865D}">
+					<ChildrenList>
+						<Action Name="" ID="{49921A3F-297E-46D4-8E65-DF2BF7280F49}" ShortID="751466815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Glass" ID="{E4B27A7C-C76A-43F7-9EB4-6B135A022D0B}" WorkUnitID="{6CA8C70D-BEAD-45B7-AA89-2677FC43B4C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
