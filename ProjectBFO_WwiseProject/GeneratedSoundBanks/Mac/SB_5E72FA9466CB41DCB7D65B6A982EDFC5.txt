@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3185232411	Play_DistKey			\Renan\Play_DistKey	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1527686672	GP_DistKey			\Default Work Unit\GP_DistKey	
+

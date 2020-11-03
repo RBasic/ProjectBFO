@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1572672821	Play_Amb_Cuisine			\Thibault\Kitchens\Play_Amb_Cuisine	
+

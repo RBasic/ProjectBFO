@@ -2,14 +2,14 @@
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
-	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1604431465" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1604433551" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\States\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Queries\Factory Queries.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\ProjectBFO_WwiseProject.wproj" DateLow="1604428094" DateHigh="0"/>
-	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\ProjectBFO_WwiseProject.halab.wsettings" DateLow="1604431714" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\ProjectBFO_WwiseProject.halab.wsettings" DateLow="1604433551" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1602658880" DateHigh="0"/>
@@ -19,7 +19,8 @@
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1604431003" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Events\Thibault.wwu" DateLow="1604428092" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Events\Renan.wwu" DateLow="1604428092" DateHigh="0"/>
-	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Events\Default Work Unit.wwu" DateLow="1602669411" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Events\Hassan.wwu" DateLow="1604433551" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Events\Default Work Unit.wwu" DateLow="1604433550" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Events\Alexis.wwu" DateLow="1604428091" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Effects\Factory Effects.wwu" DateLow="1602658879" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1602658879" DateHigh="0"/>
@@ -31,6 +32,7 @@
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1604431688" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Thibault.wwu" DateLow="1604431687" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Renan.wwu" DateLow="1604428091" DateHigh="0"/>
-	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1604431465" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Hassan.wwu" DateLow="1604433550" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1604433550" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ProjectBFO\ProjectBFO_WwiseProject\Actor-Mixer Hierarchy\Alexis.wwu" DateLow="1604428091" DateHigh="0"/>
 </ValidationCache>

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "909532684",
+    "GUID": "{36365E0C-5E0C-1E0C-0C0C-0C0C0C0C0C0C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_71087F51C5E942758064EB037BD1841E",
+    "ShortName": "SB_71087F51C5E942758064EB037BD1841E",
+    "Path": "SB_71087F51C5E942758064EB037BD1841E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1313318398",
+      "Name": "Play_Plastic",
+      "ObjectPath": "\\Events\\Alexis\\Play_Plastic",
+      "GUID": "{71087F51-C5E9-4275-8064-EB037BD1841E}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.265306",
+      "DurationMax": "3.265306",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1033044124",
+        "Language": "SFX",
+        "ShortName": "Plastic Falling.wav",
+        "Path": "SFX\\Plastic Falling_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

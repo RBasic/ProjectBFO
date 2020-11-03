@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1070826802",
+    "GUID": "{3FD38532-8532-1532-3232-323232323232}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B198C0EE762E42A693ABBB2C69E070E5",
+    "ShortName": "SB_B198C0EE762E42A693ABBB2C69E070E5",
+    "Path": "SB_B198C0EE762E42A693ABBB2C69E070E5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "441175262",
+      "Name": "Play_SFX_dishwasher",
+      "ObjectPath": "\\Events\\Thibault\\Kitchens\\Play_SFX_dishwasher",
+      "GUID": "{B198C0EE-762E-42A6-93AB-BB2C69E070E5}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "39.056030",
+      "DurationMax": "39.056030",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "396174789",
+        "Language": "SFX",
+        "ShortName": "SFX_dishwasher.wav",
+        "Path": "SFX\\SFX_dishwasher_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

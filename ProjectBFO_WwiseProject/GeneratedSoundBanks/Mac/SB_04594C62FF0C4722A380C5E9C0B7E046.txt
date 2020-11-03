@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	583253604	Play_Sfx_RoomTone_LaundryRoom			\Thibault\LaundryRoom\Play_Sfx_RoomTone_LaundryRoom	
+

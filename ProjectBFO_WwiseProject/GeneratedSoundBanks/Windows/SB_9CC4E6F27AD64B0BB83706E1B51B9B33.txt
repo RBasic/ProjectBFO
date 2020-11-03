@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1041069541	Play_SFX_Fridge			\Thibault\Kitchens\Play_SFX_Fridge	
+

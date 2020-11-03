@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3809139284",
+    "GUID": "{E30ADA54-DA54-1A54-5454-545454545454}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_350CE94A4F33478BAC5B979DD404479B",
+    "ShortName": "SB_350CE94A4F33478BAC5B979DD404479B",
+    "Path": "SB_350CE94A4F33478BAC5B979DD404479B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3327843539",
+      "Name": "Play_PickUpKey",
+      "ObjectPath": "\\Events\\Renan\\Play_PickUpKey",
+      "GUID": "{350CE94A-4F33-478B-AC5B-979DD404479B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.711338",
+      "DurationMax": "2.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "11348509",
+        "Language": "SFX",
+        "ShortName": "KeyPickUp1.wav",
+        "Path": "SFX\\KeyPickUp1_10C4C929.wem"
+       },
+       {
+        "Id": "734214163",
+        "Language": "SFX",
+        "ShortName": "KeyPickUp.wav",
+        "Path": "SFX\\KeyPickUp_10C4C929.wem"
+       },
+       {
+        "Id": "910584849",
+        "Language": "SFX",
+        "ShortName": "KeyPickUp2.wav",
+        "Path": "SFX\\KeyPickUp2_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2105409586",
+    "GUID": "{7D7E0032-0032-1032-3232-323232323232}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B9BDDBE9469042C8914ED989CDA2CF1C",
+    "ShortName": "SB_B9BDDBE9469042C8914ED989CDA2CF1C",
+    "Path": "SB_B9BDDBE9469042C8914ED989CDA2CF1C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4033747819",
+      "Name": "Play_Amb_BedRoom",
+      "ObjectPath": "\\Events\\Thibault\\BedRoom\\Play_Amb_BedRoom",
+      "GUID": "{B9BDDBE9-4690-42C8-914E-D989CDA2CF1C}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "96004711",
+        "Language": "SFX",
+        "ShortName": "RoomToneBedroom.wav",
+        "Path": "SFX\\RoomToneBedroom_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

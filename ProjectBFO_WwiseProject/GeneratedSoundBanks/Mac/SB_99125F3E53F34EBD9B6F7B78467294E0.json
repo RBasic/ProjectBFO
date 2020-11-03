@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2048884763",
+    "GUID": "{7A1F801B-801B-101B-1B1B-1B1B1B1B1B1B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_99125F3E53F34EBD9B6F7B78467294E0",
+    "ShortName": "SB_99125F3E53F34EBD9B6F7B78467294E0",
+    "Path": "SB_99125F3E53F34EBD9B6F7B78467294E0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1026504390",
+      "Name": "Play_RND_CoverCharge",
+      "ObjectPath": "\\Events\\Thibault\\Objet\\Play_RND_CoverCharge",
+      "GUID": "{99125F3E-53F3-4EBD-9B6F-7B78467294E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.269070",
+      "DurationMax": "0.672698",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "179071588",
+        "Language": "SFX",
+        "ShortName": "SFX_CoverChange3.wav",
+        "Path": "SFX\\SFX_CoverChange3_10C4C929.wem"
+       },
+       {
+        "Id": "333273550",
+        "Language": "SFX",
+        "ShortName": "SFX_CoverChange1.wav",
+        "Path": "SFX\\SFX_CoverChange1_10C4C929.wem"
+       },
+       {
+        "Id": "675976076",
+        "Language": "SFX",
+        "ShortName": "SFX_CoverChange2.wav",
+        "Path": "SFX\\SFX_CoverChange2_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2649563303",
+    "GUID": "{9DED20A7-20A7-10A7-A7A7-A7A7A7A7A7A7}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_93A7F82F8C2F402EA4925FC229C4E44E",
+    "ShortName": "SB_93A7F82F8C2F402EA4925FC229C4E44E",
+    "Path": "SB_93A7F82F8C2F402EA4925FC229C4E44E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1920209275",
+      "Name": "Play_SC_Door_Open_Close",
+      "ObjectPath": "\\Events\\Hassan\\Play_SC_Door_Open_Close",
+      "GUID": "{93A7F82F-8C2F-402E-A492-5FC229C4E44E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.200000",
+      "DurationMax": "2.363311",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "382511036",
+        "Language": "SFX",
+        "ShortName": "PorteOuverture.wav",
+        "Path": "SFX\\PorteOuverture_10C4C929.wem"
+       },
+       {
+        "Id": "1012767920",
+        "Language": "SFX",
+        "ShortName": "PorteFermeture.wav",
+        "Path": "SFX\\PorteFermeture_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{9545E93F-30B9-4589-B0E5-E90849B156AD}",
+        "Media": [
+         {
+          "Id": "1012767920"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D9296FFC-FC36-47F1-ADED-C1F35AF30804}",
+        "Media": [
+         {
+          "Id": "382511036"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2668640771",
+      "Name": "Open_Close_Door",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Open_Close_Door",
+      "GUID": "{C780C095-248F-4B7C-B11A-3FDDD3A72C9C}",
+      "Switches": [
+       {
+        "Id": "2122995345",
+        "Name": "OpenDoor",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Open_Close_Door\\OpenDoor",
+        "GUID": "{D9296FFC-FC36-47F1-ADED-C1F35AF30804}"
+       },
+       {
+        "Id": "1405443347",
+        "Name": "CloseDoor",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Open_Close_Door\\CloseDoor",
+        "GUID": "{9545E93F-30B9-4589-B0E5-E90849B156AD}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

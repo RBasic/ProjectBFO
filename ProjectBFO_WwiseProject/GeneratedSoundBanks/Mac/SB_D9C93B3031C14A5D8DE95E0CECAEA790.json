@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3844758362",
+    "GUID": "{E52A5B5A-5B5A-1B5A-5A5A-5A5A5A5A5A5A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D9C93B3031C14A5D8DE95E0CECAEA790",
+    "ShortName": "SB_D9C93B3031C14A5D8DE95E0CECAEA790",
+    "Path": "SB_D9C93B3031C14A5D8DE95E0CECAEA790.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1951387803",
+      "Name": "Play_RC_PencilDraw",
+      "ObjectPath": "\\Events\\Renan\\Play_RC_PencilDraw",
+      "GUID": "{D9C93B30-31C1-4A5D-8DE9-5E0CECAEA790}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.500000",
+      "DurationMax": "2.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "37880402",
+        "Language": "SFX",
+        "ShortName": "PencilDraw2.wav",
+        "Path": "SFX\\PencilDraw2_10C4C929.wem"
+       },
+       {
+        "Id": "71222455",
+        "Language": "SFX",
+        "ShortName": "PencilDraw1.wav",
+        "Path": "SFX\\PencilDraw1_10C4C929.wem"
+       },
+       {
+        "Id": "368994159",
+        "Language": "SFX",
+        "ShortName": "PencilDraw.wav",
+        "Path": "SFX\\PencilDraw_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

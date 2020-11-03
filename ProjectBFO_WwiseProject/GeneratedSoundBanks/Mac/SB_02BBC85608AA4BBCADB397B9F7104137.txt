@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3683675808	Play_SC_Drawner			\Hassan\Play_SC_Drawner	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1718626016	Open_Close_Drawer			\Default Work Unit\Open_Close_Drawer	
+
+Switch	ID	Name	Switch Group			Notes
+	2529075214	OpenDrawer	Open_Close_Drawer			
+	2758826736	CloseDrawer	Open_Close_Drawer			
+

@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "562606909",
+    "GUID": "{2188B33D-B33D-133D-3D3D-3D3D3D3D3D3D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_53341D0D065144CDAE93F0272E603FAC",
+    "ShortName": "SB_53341D0D065144CDAE93F0272E603FAC",
+    "Path": "SB_53341D0D065144CDAE93F0272E603FAC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "55259715",
+      "Name": "Play_Amb_Bathroom",
+      "ObjectPath": "\\Events\\Thibault\\Bathroom\\Play_Amb_Bathroom",
+      "GUID": "{53341D0D-0651-44CD-AE93-F0272E603FAC}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "751890324",
+        "Language": "SFX",
+        "ShortName": "RoomToneBathroom.wav",
+        "Path": "SFX\\RoomToneBathroom_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

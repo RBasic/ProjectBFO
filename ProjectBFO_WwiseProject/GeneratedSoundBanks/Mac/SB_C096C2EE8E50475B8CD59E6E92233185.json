@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3747522410",
+    "GUID": "{DF5EA76A-A76A-176A-6A6A-6A6A6A6A6A6A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C096C2EE8E50475B8CD59E6E92233185",
+    "ShortName": "SB_C096C2EE8E50475B8CD59E6E92233185",
+    "Path": "SB_C096C2EE8E50475B8CD59E6E92233185.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "152276835",
+      "Name": "Play_PickUpItem",
+      "ObjectPath": "\\Events\\Renan\\Play_PickUpItem",
+      "GUID": "{C096C2EE-8E50-475B-8CD5-9E6E92233185}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.430646",
+      "DurationMax": "2.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1051610466",
+        "Language": "SFX",
+        "ShortName": "PickUpRandomItem.wav",
+        "Path": "SFX\\PickUpRandomItem_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

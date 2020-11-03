@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1920209275	Play_SC_Door_Open_Close			\Hassan\Play_SC_Door_Open_Close	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2668640771	Open_Close_Door			\Default Work Unit\Open_Close_Door	
+
+Switch	ID	Name	Switch Group			Notes
+	1405443347	CloseDoor	Open_Close_Door			
+	2122995345	OpenDoor	Open_Close_Door			
+

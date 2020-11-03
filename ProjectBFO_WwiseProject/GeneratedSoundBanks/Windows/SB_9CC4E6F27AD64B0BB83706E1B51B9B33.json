@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1137724322",
+    "GUID": "{43D04BA2-4BA2-1BA2-A2A2-A2A2A2A2A2A2}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9CC4E6F27AD64B0BB83706E1B51B9B33",
+    "ShortName": "SB_9CC4E6F27AD64B0BB83706E1B51B9B33",
+    "Path": "SB_9CC4E6F27AD64B0BB83706E1B51B9B33.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1041069541",
+      "Name": "Play_SFX_Fridge",
+      "ObjectPath": "\\Events\\Thibault\\Kitchens\\Play_SFX_Fridge",
+      "GUID": "{9CC4E6F2-7AD6-4B0B-B837-06E1B51B9B33}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "580625567",
+        "Language": "SFX",
+        "ShortName": "SFX_Fridge.wav",
+        "Path": "SFX\\SFX_Fridge_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

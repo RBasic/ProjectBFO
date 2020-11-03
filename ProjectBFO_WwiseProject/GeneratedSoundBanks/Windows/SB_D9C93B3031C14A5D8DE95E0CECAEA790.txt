@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1951387803	Play_RC_PencilDraw			\Renan\Play_RC_PencilDraw	
+

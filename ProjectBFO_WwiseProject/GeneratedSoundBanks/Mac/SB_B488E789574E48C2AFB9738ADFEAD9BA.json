@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1871084399",
+    "GUID": "{6F867B6F-7B6F-1B6F-6F6F-6F6F6F6F6F6F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B488E789574E48C2AFB9738ADFEAD9BA",
+    "ShortName": "SB_B488E789574E48C2AFB9738ADFEAD9BA",
+    "Path": "SB_B488E789574E48C2AFB9738ADFEAD9BA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3028403116",
+      "Name": "Play_SFX_WashingMachine",
+      "ObjectPath": "\\Events\\Thibault\\LaundryRoom\\Play_SFX_WashingMachine",
+      "GUID": "{B488E789-574E-48C2-AFB9-738ADFEAD9BA}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "47.218216",
+      "DurationMax": "47.218216",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "320466993",
+        "Language": "SFX",
+        "ShortName": "WashingMachine.wav",
+        "Path": "SFX\\WashingMachine_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

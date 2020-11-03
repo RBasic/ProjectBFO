@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3825040458",
+    "GUID": "{E3FD7C4A-7C4A-1C4A-4A4A-4A4A4A4A4A4A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_53B6B2F2C4FB49218AC113F53C425A97",
+    "ShortName": "SB_53B6B2F2C4FB49218AC113F53C425A97",
+    "Path": "SB_53B6B2F2C4FB49218AC113F53C425A97.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1572672821",
+      "Name": "Play_Amb_Cuisine",
+      "ObjectPath": "\\Events\\Thibault\\Kitchens\\Play_Amb_Cuisine",
+      "GUID": "{53B6B2F2-C4FB-4921-8AC1-13F53C425A97}",
+      "MaxAttenuation": "400.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "992889246",
+        "Language": "SFX",
+        "ShortName": "kitchen-room-tone.wav",
+        "Path": "SFX\\kitchen-room-tone_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

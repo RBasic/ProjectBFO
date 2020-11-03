@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2280431246	Play_OpenWindow			\Renan\Play_OpenWindow	
+

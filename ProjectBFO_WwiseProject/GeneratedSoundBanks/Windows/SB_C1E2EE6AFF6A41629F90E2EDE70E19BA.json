@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3624169359",
+    "GUID": "{D8046F8F-6F8F-1F8F-8F8F-8F8F8F8F8F8F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C1E2EE6AFF6A41629F90E2EDE70E19BA",
+    "ShortName": "SB_C1E2EE6AFF6A41629F90E2EDE70E19BA",
+    "Path": "SB_C1E2EE6AFF6A41629F90E2EDE70E19BA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1357519513",
+      "Name": "Play_Book",
+      "ObjectPath": "\\Events\\Alexis\\Play_Book",
+      "GUID": "{C1E2EE6A-FF6A-4162-9F90-E2EDE70E19BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.285669",
+      "DurationMax": "0.552948",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "117205294",
+        "Language": "SFX",
+        "ShortName": "Book Falling2.wav",
+        "Path": "SFX\\Book Falling2_10C4C929.wem"
+       },
+       {
+        "Id": "847309716",
+        "Language": "SFX",
+        "ShortName": "Book Falling.wav",
+        "Path": "SFX\\Book Falling_10C4C929.wem"
+       },
+       {
+        "Id": "999500982",
+        "Language": "SFX",
+        "ShortName": "Book Falling3.wav",
+        "Path": "SFX\\Book Falling3_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

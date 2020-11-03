@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3720950636",
+    "GUID": "{DDC9336C-336C-136C-6C6C-6C6C6C6C6C6C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D8636A5D6CD14CC7BCA9F405251E86D6",
+    "ShortName": "SB_D8636A5D6CD14CC7BCA9F405251E86D6",
+    "Path": "SB_D8636A5D6CD14CC7BCA9F405251E86D6.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1665511728",
+      "Name": "Play_Sfx_RoomTone_LivingRoom",
+      "ObjectPath": "\\Events\\Thibault\\LivingRoom\\Play_Sfx_RoomTone_LivingRoom",
+      "GUID": "{D8636A5D-6CD1-4CC7-BCA9-F405251E86D6}",
+      "MaxAttenuation": "400.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "476996168",
+        "Language": "SFX",
+        "ShortName": "RoomToneLivingRoom.wav",
+        "Path": "SFX\\RoomToneLivingRoom_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

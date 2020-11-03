@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "571329235",
+    "GUID": "{220DCAD3-CAD3-1AD3-D3D3-D3D3D3D3D3D3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_609285C7175F466992E0EBB8298F9579",
+    "ShortName": "SB_609285C7175F466992E0EBB8298F9579",
+    "Path": "SB_609285C7175F466992E0EBB8298F9579.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3199860711",
+      "Name": "Play_metal",
+      "ObjectPath": "\\Events\\Alexis\\Play_metal",
+      "GUID": "{609285C7-175F-4669-92E0-EBB8298F9579}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.394512",
+      "DurationMax": "0.875329",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "607680414",
+        "Language": "SFX",
+        "ShortName": "Metal Falling.wav",
+        "Path": "SFX\\Metal Falling_10C4C929.wem"
+       },
+       {
+        "Id": "798690148",
+        "Language": "SFX",
+        "ShortName": "Metal Falling2.wav",
+        "Path": "SFX\\Metal Falling2_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

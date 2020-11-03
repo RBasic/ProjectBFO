@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1726205129",
+    "GUID": "{66E3CCC9-CCC9-1CC9-C9C9-C9C9C9C9C9C9}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E18E320DE5C246B8B7DA778F8281D70E",
+    "ShortName": "SB_E18E320DE5C246B8B7DA778F8281D70E",
+    "Path": "SB_E18E320DE5C246B8B7DA778F8281D70E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2280431246",
+      "Name": "Play_OpenWindow",
+      "ObjectPath": "\\Events\\Renan\\Play_OpenWindow",
+      "GUID": "{E18E320D-E5C2-46B8-B7DA-778F8281D70E}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.000000",
+      "DurationMax": "3.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "760111416",
+        "Language": "SFX",
+        "ShortName": "OpenWindow.wav",
+        "Path": "SFX\\OpenWindow_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

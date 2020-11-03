@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2058648930",
+    "GUID": "{7AB47D62-7D62-1D62-6262-626262626262}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_18D5FA94005C4F50B75EB57519E00ECE",
+    "ShortName": "SB_18D5FA94005C4F50B75EB57519E00ECE",
+    "Path": "SB_18D5FA94005C4F50B75EB57519E00ECE.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4249583085",
+      "Name": "Play_Amb_Office",
+      "ObjectPath": "\\Events\\Thibault\\Office\\Play_Amb_Office",
+      "GUID": "{18D5FA94-005C-4F50-B75E-B57519E00ECE}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "996962770",
+        "Language": "SFX",
+        "ShortName": "RoomToneOffice.wav",
+        "Path": "SFX\\RoomToneOffice_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

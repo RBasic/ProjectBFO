@@ -1,0 +1,90 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2694426022",
+    "GUID": "{A099ADA6-ADA6-1DA6-A6A6-A6A6A6A6A6A6}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_02BBC85608AA4BBCADB397B9F7104137",
+    "ShortName": "SB_02BBC85608AA4BBCADB397B9F7104137",
+    "Path": "SB_02BBC85608AA4BBCADB397B9F7104137.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3683675808",
+      "Name": "Play_SC_Drawner",
+      "ObjectPath": "\\Events\\Hassan\\Play_SC_Drawner",
+      "GUID": "{02BBC856-08AA-4BBC-ADB3-97B9F7104137}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.780000",
+      "DurationMax": "1.800000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "118460432",
+        "Language": "SFX",
+        "ShortName": "TiroirOuverture.wav",
+        "Path": "SFX\\TiroirOuverture_10C4C929.wem"
+       },
+       {
+        "Id": "1012859788",
+        "Language": "SFX",
+        "ShortName": "TiroirFermeture.wav",
+        "Path": "SFX\\TiroirFermeture_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{EBEABA56-4EC0-4873-8E32-A35F3589A468}",
+        "Media": [
+         {
+          "Id": "1012859788"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BB125639-0893-49FD-8593-CDAC541B6488}",
+        "Media": [
+         {
+          "Id": "118460432"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1718626016",
+      "Name": "Open_Close_Drawer",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Open_Close_Drawer",
+      "GUID": "{DB6EB2E3-3AB7-4506-AE91-4B4F04EDB8F1}",
+      "Switches": [
+       {
+        "Id": "2529075214",
+        "Name": "OpenDrawer",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Open_Close_Drawer\\OpenDrawer",
+        "GUID": "{BB125639-0893-49FD-8593-CDAC541B6488}"
+       },
+       {
+        "Id": "2758826736",
+        "Name": "CloseDrawer",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Open_Close_Drawer\\CloseDrawer",
+        "GUID": "{EBEABA56-4EC0-4873-8E32-A35F3589A468}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

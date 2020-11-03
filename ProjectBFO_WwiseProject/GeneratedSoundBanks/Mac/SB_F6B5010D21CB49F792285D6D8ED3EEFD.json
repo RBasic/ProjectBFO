@@ -1,0 +1,167 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "238452579",
+    "GUID": "{0E367F63-7F63-1F63-6363-636363636363}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F6B5010D21CB49F792285D6D8ED3EEFD",
+    "ShortName": "SB_F6B5010D21CB49F792285D6D8ED3EEFD",
+    "Path": "SB_F6B5010D21CB49F792285D6D8ED3EEFD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "691643573",
+      "Name": "Play_SC_Footstep",
+      "ObjectPath": "\\Events\\Hassan\\Play_SC_Footstep",
+      "GUID": "{F6B5010D-21CB-49F7-9228-5D6D8ED3EEFD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.130000",
+      "DurationMax": "1.499705",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "77211218",
+        "Language": "SFX",
+        "ShortName": "footsteps_1.wav",
+        "Path": "SFX\\footsteps_1_10C4C929.wem"
+       },
+       {
+        "Id": "115747404",
+        "Language": "SFX",
+        "ShortName": "footstepsCarpet1.wav",
+        "Path": "SFX\\footstepsCarpet1_10C4C929.wem"
+       },
+       {
+        "Id": "326401192",
+        "Language": "SFX",
+        "ShortName": "footstepsMarble1.wav",
+        "Path": "SFX\\footstepsMarble1_10C4C929.wem"
+       },
+       {
+        "Id": "591631011",
+        "Language": "SFX",
+        "ShortName": "footsteps2_1.wav",
+        "Path": "SFX\\footsteps2_1_10C4C929.wem"
+       },
+       {
+        "Id": "913472024",
+        "Language": "SFX",
+        "ShortName": "footstepsWood.wav",
+        "Path": "SFX\\footstepsWood_10C4C929.wem"
+       },
+       {
+        "Id": "926887910",
+        "Language": "SFX",
+        "ShortName": "footstepsCarpet2.wav",
+        "Path": "SFX\\footstepsCarpet2_10C4C929.wem"
+       },
+       {
+        "Id": "955951060",
+        "Language": "SFX",
+        "ShortName": "footstepsWood2.wav",
+        "Path": "SFX\\footstepsWood2_10C4C929.wem"
+       },
+       {
+        "Id": "994813276",
+        "Language": "SFX",
+        "ShortName": "footstepsMarble2.wav",
+        "Path": "SFX\\footstepsMarble2_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{FAC014DA-042D-419A-A60B-72BCC7A5F107}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{62C2CDB6-1BE8-4196-93E3-72FC8DB6CFDC}",
+        "Media": [
+         {
+          "Id": "77211218"
+         },
+         {
+          "Id": "591631011"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FAC014DA-042D-419A-A60B-72BCC7A5F107}",
+        "Media": [
+         {
+          "Id": "115747404"
+         },
+         {
+          "Id": "926887910"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3723C3DB-D58D-4B3D-B784-94E4E4C8BBDA}",
+        "Media": [
+         {
+          "Id": "326401192"
+         },
+         {
+          "Id": "994813276"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{627E543F-A5BF-4FF9-953F-3323DD3BAE84}",
+        "Media": [
+         {
+          "Id": "913472024"
+         },
+         {
+          "Id": "955951060"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "466066820",
+      "Name": "FootstepSurface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepSurface",
+      "GUID": "{60901D94-4660-4FF9-824C-207DB95BEE24}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepSurface\\Concrete",
+        "GUID": "{62C2CDB6-1BE8-4196-93E3-72FC8DB6CFDC}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepSurface\\Wood",
+        "GUID": "{627E543F-A5BF-4FF9-953F-3323DD3BAE84}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepSurface\\Carpet",
+        "GUID": "{FAC014DA-042D-419A-A60B-72BCC7A5F107}"
+       },
+       {
+        "Id": "1127618254",
+        "Name": "Marble",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepSurface\\Marble",
+        "GUID": "{3723C3DB-D58D-4B3D-B784-94E4E4C8BBDA}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

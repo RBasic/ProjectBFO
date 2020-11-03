@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	55259715	Play_Amb_Bathroom			\Thibault\Bathroom\Play_Amb_Bathroom	
+

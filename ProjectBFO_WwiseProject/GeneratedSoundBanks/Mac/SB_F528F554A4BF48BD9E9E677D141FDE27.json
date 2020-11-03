@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\",
+   "SourceFilesRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\ProjectBFO\\ProjectBFO_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "213636563",
+    "GUID": "{0CBBD5D3-D5D3-15D3-D3D3-D3D3D3D3D3D3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F528F554A4BF48BD9E9E677D141FDE27",
+    "ShortName": "SB_F528F554A4BF48BD9E9E677D141FDE27",
+    "Path": "SB_F528F554A4BF48BD9E9E677D141FDE27.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2207983986",
+      "Name": "Play_Amb_Garage",
+      "ObjectPath": "\\Events\\Renan\\Play_Amb_Garage",
+      "GUID": "{F528F554-A4BF-48BD-9E9E-677D141FDE27}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "501705374",
+        "Language": "SFX",
+        "ShortName": "Roomtone.wav",
+        "Path": "SFX\\Roomtone_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

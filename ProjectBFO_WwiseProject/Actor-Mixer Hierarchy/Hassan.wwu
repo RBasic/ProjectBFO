@@ -301,6 +301,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="PorteFermeture" ID="{C39BC403-E5CA-4956-8A14-7EA913DC3869}" ShortID="955718174">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
@@ -323,6 +330,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PorteOuverture" ID="{6FD31FB5-983A-4AC2-8547-ADCCF079D8D9}" ShortID="465477998">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
@@ -384,6 +398,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="TiroirFermeture" ID="{96FAAE8B-BB4A-4C0A-B9B9-9C3272666E96}" ShortID="706866102">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
@@ -406,6 +427,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TiroirOuverture" ID="{1D041488-56E2-49F9-9824-7318A76830B4}" ShortID="952769260">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>

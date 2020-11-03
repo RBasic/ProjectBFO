@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	691643573	Play_SC_Footstep			\Hassan\Play_SC_Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	466066820	FootstepSurface			\Default Work Unit\FootstepSurface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	FootstepSurface			
+	1127618254	Marble	FootstepSurface			
+	2058049674	Wood	FootstepSurface			
+	2412606308	Carpet	FootstepSurface			
+
