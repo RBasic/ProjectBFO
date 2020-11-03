@@ -17,7 +17,9 @@
 							<ChildrenList>
 								<Sound Name="Sfx_RoomTone_Kitchens" ID="{2B8057D9-4C18-4314-91A1-2AA471334C94}" ShortID="214118499">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-8</Value>
@@ -25,6 +27,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Amb_Roomtone_Kitchens" ID="{F275AE89-938F-4CA4-88DE-79DCEA34F3FE}" WorkUnitID="{11752E92-AABA-4B5E-A0B2-BA3F24DF3449}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -58,12 +63,12 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<Custom CreatedFrom="{13AF01F3-7154-4A8A-9033-9AC661B7E454}">
-												<Attenuation Name="ObjectAttenuation (Custom)" ID="{F8B9652A-5219-4526-8814-1D810D777AD9}" ShortID="399035891">
+											<Custom CreatedFrom="{238BCD31-9F1F-4886-9F78-21D8967EED4A}">
+												<Attenuation Name="SFX_Attenuation_Fridge (Custom)" ID="{2876E8E3-C3E4-46DC-AAD0-09BF744FFD55}" ShortID="8103047">
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{013B60BD-4762-46F7-840D-A987A01A1831}">
+																<Curve Name="VolumeDry" ID="{D58FE0E7-6039-4DC9-A106-B55488B8C428}">
 																	<PropertyList>
 																		<Property Name="Flags" Type="int32" Value="3"/>
 																	</PropertyList>
@@ -126,6 +131,8 @@
 								</Sound>
 								<Sound Name="SFX_dishwasher" ID="{4E8F261B-12CE-47D2-8F99-1FACCAAC487D}" ShortID="258060435">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-30</Value>
@@ -133,6 +140,53 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{1FF1380D-00F0-4EE3-958D-CF0871B8AC29}">
+												<Attenuation Name="SFX_Attenuation_Dishwasher (Custom)" ID="{EBA09B44-6B05-4CF8-98F3-B1552D1807D4}" ShortID="576130285">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{FC6F11E9-21BF-42B6-B202-250EC245CACA}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -159,7 +213,9 @@
 							<ChildrenList>
 								<Sound Name="Sfx_RoomTone_LivingRoom" ID="{7CCCD25B-BCC2-46D7-874A-7029102A0E7F}" ShortID="717700765">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -167,6 +223,53 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{93D9AD38-5A82-4586-99A2-3EC2E17C26B9}">
+												<Attenuation Name="Amb_Roomtone_LivingRoom (Custom)" ID="{B325F4C8-C562-4538-B52C-3939DB3F9EEB}" ShortID="910278280">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{19219483-BEE1-4796-817C-5648E6E90ED1}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -193,7 +296,9 @@
 							<ChildrenList>
 								<Sound Name="Sfx_RoomTone_LaundryRoom" ID="{4D861F95-13A6-4C4A-9D86-8C56DA007570}" ShortID="81886010">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -201,6 +306,53 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{6ACC8E49-7D1D-452A-9B76-615D5C67940F}">
+												<Attenuation Name="Amb_Roomtone_LaundryRoom (Custom)" ID="{B025F48D-297D-487B-AC3C-F3934B302862}" ShortID="273308051">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{BE31F358-B404-4A8D-8AF7-1C6D8537A7CB}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -223,6 +375,8 @@
 								</Sound>
 								<Sound Name="SFX_WashingMachine" ID="{049B98CB-B55B-4A4D-A79F-C1C5922A6333}" ShortID="875046040">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>-10</Value>
@@ -235,6 +389,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="SFX_Attenuation_Washingmachine" ID="{257F7DA1-5089-45DC-90AE-E690F18B9286}" WorkUnitID="{11752E92-AABA-4B5E-A0B2-BA3F24DF3449}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -261,7 +418,9 @@
 							<ChildrenList>
 								<Sound Name="Sfx_RoomTone_Bathroom" ID="{B4F8EB96-0254-4FF0-BA4A-4CEF9A25B06E}" ShortID="452844048">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-14</Value>
@@ -269,6 +428,53 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{6678DA3F-C3A9-4F94-BAC0-3EBCD17C63BB}">
+												<Attenuation Name="Amb_Roomtone_Bathroom (Custom)" ID="{FFCDAA6E-6D87-48CE-940E-7A86D95FA94A}" ShortID="932193154">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{2E79E5F8-7096-4C27-8EB6-9CEFF55CBFCD}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -295,7 +501,9 @@
 							<ChildrenList>
 								<Sound Name="Sfx_RoomTone_BedRoom" ID="{6BA78E3C-2EC0-4D36-9B57-53B83ACC01AB}" ShortID="478325889">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-12</Value>
@@ -303,6 +511,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Amb_Roomtone_BedRoom" ID="{FA96F8C0-EFE1-4F59-90D6-BF69AC658211}" WorkUnitID="{11752E92-AABA-4B5E-A0B2-BA3F24DF3449}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
@@ -329,7 +540,9 @@
 							<ChildrenList>
 								<Sound Name="Sfx_RoomTone_Office" ID="{8569CA62-CF06-4E85-8A68-E3F5C411BE23}" ShortID="504267816">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -337,6 +550,53 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{3A3F42F9-91A0-42BC-914A-736612AA1E1C}">
+												<Attenuation Name="Amb_Roomtone_Office (Custom)" ID="{C6CDC9FF-A41A-45BA-BDBD-C9B2249A85FF}" ShortID="81084478">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{7C8E165C-BF8A-4EDB-A123-591DD47CF1A4}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{59199A59-12C4-4DF3-A5BF-6E51D18C780A}"/>
 										</Reference>
