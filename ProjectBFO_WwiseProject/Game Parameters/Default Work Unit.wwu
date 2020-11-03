@@ -3,7 +3,13 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{52617F4B-68D4-4AE7-B04E-628B31D75C4B}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="New_Game_Parameter" ID="{0BB7FC6A-509A-409C-8562-FAB75367704F}"/>
+				<GameParameter Name="Ouverture_Fermeture_Porte" ID="{0BB7FC6A-509A-409C-8562-FAB75367704F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="Min" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 				<GameParameter Name="GP_DistKey" ID="{0C5C6FD8-EC2E-4B5E-B483-732C87979384}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
